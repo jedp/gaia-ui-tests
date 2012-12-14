@@ -12,7 +12,7 @@ except (OSError, IOError):
     description = ''
 
 # dependencies
-deps = ['marionette_client', 'mozdevice']
+deps = ['marionette_client', 'mozdevice', 'requests']
 
 # copy atoms directory over
 setupdir = os.path.dirname(__file__)
